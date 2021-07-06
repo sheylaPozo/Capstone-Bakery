@@ -75,7 +75,7 @@ For tracking linter errors locally you need to follow these steps:
   > `npx stylelint "\*_/_.{css,scss}"`
 
 
-## 💗 Author:
+## 🤍 Author:
 
 👤 **Sheyla Pozo** 🤍
 
@@ -94,7 +94,7 @@ Contributions, issues, and feature requests are welcome! 🤍
 Feel free to check the [issues page](https://github.com/sheylaPozo/Capstone-Bakery/issues).
 
 
-## 💗 Show your support
+## 🤍 Show your support
 
 Give a ⭐️ if you like this project!
 
