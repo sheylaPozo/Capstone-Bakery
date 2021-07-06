@@ -1,6 +1,8 @@
+![Microverse](https://img.shields.io/badge/Microverse-blueviolet)
+
 # Capstone-Bakery
 This capstone project is been made with HTML5, CSS3 and JS, following the guidelines of 
-![Microverse](https://img.shields.io/badge/Microverse2.0-blueviolet) 2.0
+![Microverse](https://img.shields.io/badge/Microverse2.0-blueviolet)
 ---
 ![Portfolio](https://img.shields.io/github/followers/sheylaPozo?style=social)
 
