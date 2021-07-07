@@ -685,30 +685,30 @@ main {
     }
 }
 
-.main-section-dancers {
+.main-section-desserts {
     background-color: #fff;
 }
 
-.main-section-dancers-content {
+.main-section-desserts-content {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
     padding: 2.2rem 0 3rem 0;
 }
 
-.main-section-dancers-title {
+.main-section-desserts-title {
     text-align: center;
 }
 
-.main-section-dancers-card-image {
+.main-section-desserts-card-image {
     max-height: 5rem;
 }
 
-.main-section-dancers-cards {
+.main-section-desserts-cards {
     margin-top: 2rem;
 }
 
-.main-section-dancers-card {
+.main-section-desserts-card {
     padding: 0.6rem 0 0.6rem 0.6rem;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -729,21 +729,21 @@ main {
     z-index: -1;
 }
 
-.main-section-dancers-card-content {
+.main-section-desserts-card-content {
     line-height: 18px;
 }
 
-.main-section-dancers-card-title {
+.main-section-desserts-card-title {
     color: #272a31;
     font-size: 14px;
 }
 
-.main-section-dancers-card-description {
+.main-section-desserts-card-description {
     color: #ec42b9;
     font-size: 11px;
 }
 
-.main-section-dancers-card-text {
+.main-section-desserts-card-text {
     color: #272a31;
     font-size: 11px;
     opacity: 0.8;
@@ -774,11 +774,11 @@ main {
 }
 
 @media only screen and (min-width: 768px) {
-    .main-section-dancers-content {
+    .main-section-desserts-content {
         width: 80%;
     }
 
-    .main-section-dancers-cards {
+    .main-section-desserts-cards {
         display: -ms-grid;
         display: grid;
         -ms-grid-columns: 1fr 1fr;
@@ -790,7 +790,7 @@ main {
         opacity: 0.3;
     }
 
-    .main-section-dancers-card-image {
+    .main-section-desserts-card-image {
         max-height: 8rem;
     }
 
