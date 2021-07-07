@@ -435,10 +435,7 @@ footer {
     color: #272a31;
     font-weight: 600;
     opacity: 0.5;
-}
-
-.footer h2{
-    margin-top: inherit
+    margin-top: inherit;
 }
 
 @media only screen and (min-width: 768px) {
@@ -447,10 +444,6 @@ footer {
         display: grid;
         -ms-grid-rows: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-    }
-
-    .footer h2{
-        margin-top: inherit
     }
 
     .footer-text-content {
