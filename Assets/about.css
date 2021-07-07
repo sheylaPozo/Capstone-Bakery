@@ -154,11 +154,11 @@ header {
 }
 
 .nav-bottom-links-style:active {
-    color: #ec5242;
+    color: #b120bb;
 }
 
 .nav-bottom-links-style:hover {
-    color: #ec5242;
+    color: #df74e6;
     -webkit-animation: hover 5s;
     animation: hover 5s;
 }
@@ -512,7 +512,7 @@ footer {
 .section-header-title {
     padding-top: 2rem;
     padding-bottom: 1rem;
-    color: #ec5242;
+    color: rgb(233 66 236);
     font-size: 26px;
     font-weight: 500;
 }
