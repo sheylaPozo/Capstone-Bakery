@@ -452,10 +452,18 @@ footer {
     opacity: 0.7;
 }
 
+.footer h2{
+    margin-top: inherit
+}
+
 @media only screen and (min-width: 768px) {
     footer {
         -ms-grid-rows: 1fr;
         grid-template-rows: 1fr;
+    }
+
+    .footer h2{
+        margin-top: inherit
     }
 
     .footer-top {
