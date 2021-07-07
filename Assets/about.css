@@ -145,7 +145,7 @@ header {
 
 #aboutPage {
     padding: 0.7rem;
-    background-color: #ec5242;
+    background-color: #ec42a5;
     opacity: 0.6;
 }
 
@@ -165,35 +165,35 @@ header {
 
 @-webkit-keyframes hover {
     from {
-        -webkit-filter: drop-shadow(0 0 0 orange);
-        filter: drop-shadow(0 0 0 orange);
+        -webkit-filter: drop-shadow(0 0 0 rgb(255, 0, 255));
+        filter: drop-shadow(0 0 0 rgb(234, 0, 255));
     }
 
     to {
-        -webkit-filter: drop-shadow(-1rem 4rem 4rem orange);
-        filter: drop-shadow(-1rem 4rem 4rem orange);
+        -webkit-filter: drop-shadow(-1rem 4rem 4rem rgb(225, 0, 255));
+        filter: drop-shadow(-1rem 4rem 4rem rgb(255, 0, 221));
     }
 
     to {
-        -webkit-filter: drop-shadow(-2rem 5rem 5rem orange);
-        filter: drop-shadow(-2rem 5rem 5rem orange);
+        -webkit-filter: drop-shadow(-2rem 5rem 5rem rgb(212, 0, 255));
+        filter: drop-shadow(-2rem 5rem 5rem rgb(255, 0, 255));
     }
 }
 
 @keyframes hover {
     from {
-        -webkit-filter: drop-shadow(0 0 0 orange);
-        filter: drop-shadow(0 0 0 orange);
+        -webkit-filter: drop-shadow(0 0 0 rgb(247, 0, 255));
+        filter: drop-shadow(0 0 0 rgb(247, 0, 255));
     }
 
     to {
-        -webkit-filter: drop-shadow(-1rem 4rem 4rem orange);
-        filter: drop-shadow(-1rem 4rem 4rem orange);
+        -webkit-filter: drop-shadow(-1rem 4rem 4rem rgb(255, 0, 255));
+        filter: drop-shadow(-1rem 4rem 4rem rgb(234, 0, 255));
     }
 
     to {
-        -webkit-filter: drop-shadow(-2rem 5rem 5rem orange);
-        filter: drop-shadow(-2rem 5rem 5rem orange);
+        -webkit-filter: drop-shadow(-2rem 5rem 5rem rgb(255, 0, 221));
+        filter: drop-shadow(-2rem 5rem 5rem rgb(255, 0, 242));
     }
 }
 
@@ -297,19 +297,19 @@ header {
 .mobile-menu-style #mobileMenuTwitter:hover {
     font-size: 45px;
     color: #ec5242;
-    -webkit-filter: drop-shadow(0.5rem -0.8rem 0.1rem orange);
-    filter: drop-shadow(0.5rem -0.8rem 0.1rem orange);
+    -webkit-filter: drop-shadow(0.5rem -0.8rem 0.1rem rgb(225, 0, 255));
+    filter: drop-shadow(0.5rem -0.8rem 0.1rem rgb(234, 0, 255));
 }
 
 .mobile-menu-style .blur-effect {
-    -webkit-filter: drop-shadow(0.2rem -0.6rem 0 #ec5242);
-    filter: drop-shadow(0.2rem -0.6rem 0 #ec5242);
+    -webkit-filter: drop-shadow(0.2rem -0.6rem 0 #ec42ab);
+    filter: drop-shadow(0.2rem -0.6rem 0 #ec4291);
 }
 
 .mobile-menu-style .blur-effect:hover {
     color: #272a31;
-    -webkit-filter: drop-shadow(5rem -1.05rem 0 #ec5242);
-    filter: drop-shadow(5rem -1.05rem 0 #ec5242);
+    -webkit-filter: drop-shadow(5rem -1.05rem 0 #ec42b9);
+    filter: drop-shadow(5rem -1.05rem 0 #ec42a5);
 }
 
 .mobile-menu-style .fa-times {
@@ -367,20 +367,20 @@ header {
     }
 
     to {
-        -webkit-filter: drop-shadow(3rem 3rem 3rem #ec5242);
-        filter: drop-shadow(3rem 3rem 3rem #ec5242);
+        -webkit-filter: drop-shadow(3rem 3rem 3rem #ec42ab);
+        filter: drop-shadow(3rem 3rem 3rem #ec4289);
     }
 }
 
 @keyframes hoverEffect {
     from {
-        -webkit-filter: drop-shadow(0 0 0 #ec5242);
-        filter: drop-shadow(0 0 0 #ec5242);
+        -webkit-filter: drop-shadow(0 0 0 #ec42b3);
+        filter: drop-shadow(0 0 0 #ec42b9);
     }
 
     to {
-        -webkit-filter: drop-shadow(3rem 3rem 3rem #ec5242);
-        filter: drop-shadow(3rem 3rem 3rem #ec5242);
+        -webkit-filter: drop-shadow(3rem 3rem 3rem #ec42a5);
+        filter: drop-shadow(3rem 3rem 3rem #ec42b3);
     }
 }
 
@@ -414,7 +414,7 @@ footer {
 }
 
 .footer-top-underline-span {
-    border: 1px solid #ec5242;
+    border: 1px solid #ec42ab;
     width: 3rem;
 }
 
