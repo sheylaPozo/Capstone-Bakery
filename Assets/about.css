@@ -450,7 +450,6 @@ footer {
 .footer-text {
     font-weight: 600;
     opacity: 0.7;
-    margin-top: inherit;
 }
 
 @media only screen and (min-width: 768px) {
