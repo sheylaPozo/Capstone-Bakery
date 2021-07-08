@@ -1,0 +1,131 @@
+header {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  font-family: $secondary-font;
+  z-index: 99;
+}
+
+.mobile-nav {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fa-bars {
+  padding: 0.7rem 0;
+  color: $dark-color;
+}
+
+.nav-top,
+.nav-bottom {
+  display: none;
+}
+
+.nav-top {
+  background-color: $dark-color;
+}
+
+.nav-top-links {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0.5rem 0;
+}
+
+.nav-top-links-style {
+  color: $light-color;
+}
+
+.nav-top-links-style:hover:not(.fa-twitter:hover .fa-facebook-f:hover) {
+  opacity: 0.5;
+}
+
+.fa-twitter:hover,
+.fa-facebook-f:hover {
+  color: $red-color;
+}
+
+.logo {
+  width: 10rem;
+  height: 3rem;
+}
+
+.nav-bottom {
+  padding: 0.5rem 0;
+  background-color: #fff;
+}
+
+.nav-bottom-width {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-bottom-links {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+}
+
+.nav-bottom-links-style {
+  color: $light-color;
+}
+
+#aboutPage {
+  padding: 0.7rem;
+  background-color: $red-color;
+  opacity: 0.6;
+}
+
+#aboutPage:hover {
+  color: $light-color;
+}
+
+.nav-bottom-links-style:active {
+  color: $red-color;
+}
+
+.nav-bottom-links-style:hover {
+  color: $red-color;
+  animation: hover 5s;
+}
+
+@keyframes hover {
+  from {
+    filter: drop-shadow(0 0 0 rgb(255, 0, 140));
+  }
+
+  to {
+    filter: drop-shadow(-1rem 4rem 4rem rgb(255, 0, 140));
+  }
+
+  to {
+    filter: drop-shadow(-2rem 5rem 5rem rgb(255, 0, 140));
+  }
+}
+
+.nav-bottom-links-campaing {
+  padding: 0.5rem;
+  border: 0.25rem solid $red-color;
+  color: $red-color;
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-nav {
+    display: none;
+  }
+
+  .nav-top,
+  .nav-bottom {
+    display: block;
+  }
+}

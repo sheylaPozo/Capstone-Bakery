@@ -1,0 +1,55 @@
+$primary-font: "Cocogoose", sans-serif;
+$secondary-font: "Lato", sans-serif;
+
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+@font-face {
+  font-family: "Cocogoose";
+  src:
+    url("../font-family/Cocogoose.woff2") format("woff2"),
+    url("../font-family/Cocogoose.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+$dark-color: #272a31;
+$red-color: #ec42ab;
+$light-color: #d3d3d3;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.display-flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@import "about-header";
+@import "mobile-menu";
+@import "about-footer";
+@import "about-section-header";
+@import "about-main-section-info";

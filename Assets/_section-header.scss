@@ -1,0 +1,118 @@
+.section-header {
+  padding-top: 3rem;
+  position: relative;
+  height: auto;
+}
+
+.section-header::before {
+  content: "";
+  background-image: url(../images/);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -5;
+}
+
+.section-header-content {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: $secondary-font;
+  padding-bottom: 4rem;
+}
+
+.section-header-title {
+  padding-top: 3rem;
+  color: $red-color;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.section-header-second-title {
+  padding-top: 0.5rem;
+  background-image: url(../images/);
+  background-size: cover;
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 1.85rem;
+  font-family: $primary-font;
+}
+
+.section-header-second-title-year {
+  font-family: "Work Sans", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.section-header-text-content {
+  color: rgba($dark-color, 0.8);
+  margin-top: 1.7rem;
+  padding: 1rem;
+  background-color: #f1f1f1;
+  border: 2px solid #fff;
+}
+
+.section-header-third-title {
+  color: $dark-color;
+  font-family: "Work Sans", sans-serif;
+  font-size: 2rem;
+  margin-top: 1.5rem;
+  font-weight: 800;
+  opacity: 0.7;
+}
+
+.section-header-info {
+  color: $dark-color;
+  font-size: 1.2rem;
+  opacity: 0.7;
+  margin-top: 0.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .section-header {
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+    position: relative;
+    height: 100vh;
+  }
+
+  .section-header-content {
+    width: 80%;
+  }
+
+  .section-header-title {
+    font-size: 36px;
+  }
+
+  .section-header-second-title {
+    font-size: 3.5rem;
+  }
+
+  .section-header-second-title-year {
+    font-size: 4.5rem;
+  }
+
+  .section-header-third-title {
+    font-size: 2.8rem;
+    font-weight: 800;
+    opacity: 0.7;
+  }
+
+  .section-header-text-content {
+    width: 50%;
+  }
+
+  .section-header-info {
+    color: $dark-color;
+    font-size: 1.5rem;
+    font-weight: 500;
+    opacity: 0.7;
+    margin-top: 0.5rem;
+  }
+}

@@ -1,0 +1,109 @@
+.mobile-menu-style {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background-color: $dark-color;
+  z-index: 999;
+  animation: mobileMenu 400ms;
+
+  @keyframes mobileMenu {
+    from {
+      height: 0%;
+    }
+
+    to {
+      height: 100%;
+    }
+  }
+
+  #mobileMenuLinks {
+    visibility: hidden;
+    animation: mobileMenuLinks 400s 400ms;
+  }
+
+  @keyframes mobileMenuLinks {
+    0% {
+      visibility: hidden;
+    }
+
+    100% {
+      visibility: visible;
+    }
+  }
+
+  .mobile-menu-social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  #mobileMenuFacebook,
+  #mobileMenuTwitter {
+    padding-top: 2rem;
+  }
+
+  #mobileMenuFacebook:hover,
+  #mobileMenuTwitter:hover {
+    font-size: 45px;
+    color: $red-color;
+    filter: drop-shadow(0.5rem -0.8rem 0.1rem rgb(255, 0, 221));
+  }
+
+  .blur-effect {
+    filter: drop-shadow(0.2rem -0.6rem 0 $red-color);
+  }
+
+  .blur-effect:hover {
+    color: $dark-color;
+    filter: drop-shadow(5rem -1.05rem 0 $red-color);
+  }
+
+  .fa-times {
+    color: $light-color;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 62px;
+    padding-right: 38px;
+  }
+
+  @keyframes closeSlow {
+    from {
+      height: 100%;
+    }
+
+    to {
+      height: 0%;
+    }
+  }
+
+  li {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  a {
+    color: $light-color;
+    font-family: $primary-font;
+    font-size: 28px;
+  }
+
+  a:hover {
+    animation: hoverEffect 0.2s;
+  }
+
+  @keyframes hoverEffect {
+    from {
+      filter: drop-shadow(0 0 0 $red-color);
+    }
+
+    to {
+      filter: drop-shadow(3rem 3rem 3rem $red-color);
+    }
+  }
+}
