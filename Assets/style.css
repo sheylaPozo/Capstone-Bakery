@@ -465,7 +465,7 @@ footer {
 
 .section-header::before {
     content: "";
-    background-image: url(../images/);
+    background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.2;
@@ -494,7 +494,7 @@ footer {
 
 .section-header-second-title {
     padding-top: 0.5rem;
-    background-image: url(../images/);
+    background-image: url(../images/cakes.jpeg);
     background-size: cover;
     background-clip: content-box;
     -webkit-background-clip: text;

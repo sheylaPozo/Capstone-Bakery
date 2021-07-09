@@ -51,9 +51,9 @@ desserts.push(
 
 desserts.push(
     new ProjectCard(
-        'images/',
+        'images/choco.png',
         'Picture of Dessert',
-        'Tiramissu',
+        'Chocolate Esculptures',
         "Made with the secret recipe of grandma Paula, tradition of the house'",
         'In 2001 Yve´s Konditorei won a first place in World Baking Compettitioon for the best bakeries on the Country, so is recognoized Country level for its merits',
     ),
@@ -61,7 +61,7 @@ desserts.push(
 
 desserts.push(
     new ProjectCard(
-        'images/',
+        './images/panacota.jpg',
         'Picture of Dessert',
         'Panacota',
         "Italian dessert, made with the best German ingredients to make its taste dedlicious like made in heaven",
@@ -71,7 +71,7 @@ desserts.push(
 
 desserts.push(
     new ProjectCard(
-        'images/',
+        './images/cupcake.jpg',
         'Picture of Dessert',
         'Personalized Cupcakes',
         "We always come with different ideas for our cupcakes, sometimes rainbow, other days galaxy, next day bicolor, it's always matter of creativity and creation",
@@ -81,7 +81,7 @@ desserts.push(
 
 desserts.push(
     new ProjectCard(
-        'images/',
+        './images/birthdaycake.jpg',
         'Picture of Dessert',
         'Birthday, Wedding, celebration Cakes',
         "Our cakes are of the best selection in all the flavors possible, and delicious with our secret recipes",
@@ -91,7 +91,7 @@ desserts.push(
 
 desserts.push(
     new ProjectCard(
-        'images/',
+        './images/pralinem.jpg',
         'Picture of Dessert',
         'Pralinem',
         "Our chocolates are of the best selection with delicious fillers and sold in dozen or more for parties or events'",
@@ -106,8 +106,8 @@ for (let i = 0; i < desserts.length; i += 1) {
 
     const blackAndWhite = document.createElement('img');
     blackAndWhite.className = 'black-and-white';
-    blackAndWhite.src = 'images/black-white-squares.jpg';
-    blackAndWhite.altText = 'Background image - black-white-squares';
+    blackAndWhite.src = 'images/checkers.jpg';
+    blackAndWhite.altText = 'Background image - checkers';
     cardItem.appendChild(blackAndWhite);
 
     const cardImg = document.createElement('img');

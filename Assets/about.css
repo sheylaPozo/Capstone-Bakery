@@ -490,7 +490,7 @@ footer {
 
 .section-header::before {
     content: "";
-    background-image: url(../images/);
+    background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.2;
