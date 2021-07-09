@@ -38,10 +38,10 @@ menuList.appendChild(program);
 
 const bestsellers = document.createElement('li');
 const bestsellersLink = document.createElement('a');
-sponsorLink.className = 'blur-effect';
-sponsorLink.textContent = 'Bestsellers';
-sponsorLink.href = '#';
-sponsor.appendChild(bestsellersLink);
+bestsellersLink.className = 'blur-effect';
+bestsellersLink.textContent = 'Bestsellers';
+bestsellersLink.href = '#';
+bestsellers.appendChild(bestsellersLink);
 menuList.appendChild(bestsellers);
 
 const news = document.createElement('li');
