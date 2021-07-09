@@ -44,13 +44,13 @@ bestsellersLink.href = '#';
 bestsellers.appendChild(bestsellersLink);
 menuList.appendChild(bestsellers);
 
-const news = document.createElement('li');
-const newsLink = document.createElement('a');
-newsLink.className = 'blur-effect';
-newsLink.textContent = 'News';
-newsLink.href = '#';
-news.appendChild(newsLink);
-menuList.appendChild(news);
+const newDesserts = document.createElement('li');
+const newdessertsLink = document.createElement('a');
+newDessertsLink.className = 'blur-effect';
+newDessertsLink.textContent = 'New Desserts';
+newDessertsLink.href = '#';
+newDesserts.appendChild(newDessertsLink);
+menuList.appendChild(newDesserts);
 
 const join = document.createElement('li');
 const joinLink = document.createElement('a');
