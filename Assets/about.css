@@ -520,7 +520,7 @@ footer {
 
 .section-header-second-title {
     padding-top: 0.5rem;
-    background-image: url(../images/);
+    background-image: url(../images/header.jpg);
     background-size: cover;
     background-clip: content-box;
     -webkit-background-clip: text;
@@ -647,13 +647,13 @@ main {
 }
 
 .image-one {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(236, 82, 66, 0.6))), url(../images/);
-    background-image: linear-gradient(rgba(236, 82, 66, 0.6)), url(../images/);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(236, 82, 66, 0.6))), url(../images/chocolate.png);
+    background-image: linear-gradient(rgba(236, 82, 66, 0.6)), url(../images/fuchsia.jpg);
 }
 
 .image-two {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(236, 82, 66, 0.6))), url(../images/);
-    background-image: linear-gradient(rgba(236, 82, 66, 0.6)), url(../images/);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(236, 82, 66, 0.6))), url(../images/strawberry.jpg);
+    background-image: linear-gradient(rgba(236, 82, 66, 0.6)), url(../images/fuchsia.jpg);
 }
 
 .image-title {
