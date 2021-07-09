@@ -137,6 +137,7 @@ header {
 
 .nav-bottom-links-style {
   color: #d3d3d3;
+  cursor:pointer;
 }
 
 .nav-bottom-links-style:active {
@@ -489,7 +490,7 @@ footer {
 
 .section-header-second-title-year {
   font-family: "Work Sans", sans-serif;
-  font-size: 2.5rem;
+  font-size: 1rem;
   font-weight: 900;
 }
 
