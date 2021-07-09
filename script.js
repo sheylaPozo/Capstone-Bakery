@@ -41,10 +41,10 @@ const desserts = [];
 
 desserts.push(
     new ProjectCard(
-        'images/.',
+        'images/cake.jpeg.',
         'Picture of Dessert',
         'Pudin cake',
-        "Vanilla and chocolate pudin cookie's cake - special recipe with cookies'",
+        "Vanilla and chocolate pudin filled cookie's cake decorated like a traditional cake - special recipe with cookies'",
         'In 2001 Yve´s Konditorei won a first place in World Baking Compettitioon for the best bakeries on the Country, so is recognoized Country level for its merits',
     ),
 );
