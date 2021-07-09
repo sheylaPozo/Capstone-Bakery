@@ -36,8 +36,8 @@ programLink.href = '#';
 program.appendChild(programLink);
 menuList.appendChild(program);
 
-const sponsor = document.createElement('li');
-const sponsorLink = document.createElement('a');
+const bestsellers = document.createElement('li');
+const bestsellersLink = document.createElement('a');
 sponsorLink.className = 'blur-effect';
 sponsorLink.textContent = 'Bestsellers';
 sponsorLink.href = '#';
