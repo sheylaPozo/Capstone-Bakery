@@ -1,15 +1,15 @@
 const main = document.getElementById('main');
-const Latestadditions = document.createElement('section');
-Latestadditions.className = 'main-section-desserts';
-Latestadditions.id = 'Latestadditions';
-main.appendChild(Latestadditions);
+const featuredDesserts = document.createElement('section');
+featuredDesserts.className = 'main-section-desserts';
+featuredDesserts.id = 'featureDesserts';
+main.appendChild(featuredDesserts);
 
-const featuredDancersDIV = document.createElement('div');
-LatestadditionsDIV.className = 'main-section-desserts-content';
-Latestadditions.appendChild(LatestadditionsDIV);
+const featuredDessertsDIV = document.createElement('div');
+featuredDessertssDIV.className = 'main-section-desserts-content';
+featuredDesserts.appendChild(featuredDessertsDIV);
 
-const LatestadditionsTitle = document.createElement('h3');
-LatestadditionsTitle.className = 'main-section-desserts-title';
+const featuredDessertsTitle = document.createElement('h3');
+featuredDessertsTitle.className = 'main-section-desserts-title';
 featuredDessertsTitle.textContent = 'Featured Desserts';
 featuredDessertsDIV.appendChild(featuredDessertsTitle);
 
@@ -23,7 +23,7 @@ featuredDessertsTitleUnderlineSp.className = 'footer-top-underline-span';
 featuredDessertsTitleUnderline.appendChild(featuredDessertsTitleUnderlineSp);
 
 const cardUL = document.createElement('ul');
-cardUL.className = 'main-section-dancers-cards';
+cardUL.className = 'main-section-desserts-cards';
 cardUL.id = 'cards-show';
 featuredDessertsDIV.appendChild(cardUL);
 
@@ -41,7 +41,7 @@ const desserts = [];
 
 desserts.push(
     new ProjectCard(
-        'images/cake.jpeg.',
+        './images/cake.jpg',
         'Picture of Dessert',
         'Pudin cake',
         "Vanilla and chocolate pudin filled cookie's cake decorated like a traditional cake - special recipe with cookies'",
@@ -51,7 +51,7 @@ desserts.push(
 
 desserts.push(
     new ProjectCard(
-        'images/choco.png',
+        './images/choco.png',
         'Picture of Dessert',
         'Chocolate Esculptures',
         "Made with the secret recipe of grandma Paula, tradition of the house'",
@@ -156,7 +156,7 @@ window.addEventListener('resize', checkWindowWidth);
 const buttonMore = document.createElement('button');
 buttonMore.className = 'main-button-more';
 buttonMore.textContent = 'MORE';
-featuredDancersDIV.appendChild(buttonMore);
+featuredDessertsDIV.appendChild(buttonMore);
 
 const buttonIcon = document.createElement('i');
 buttonIcon.className = 'fas fa-chevron-down';
