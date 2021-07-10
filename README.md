@@ -37,6 +37,9 @@ The main purpose of the project [Capstone](https://sheylapozo.github.io/Capstone
 [Capstone](https://sheylapozo.github.io/Capstone-Bakery/) 
 
 ---
+[Video Link](https://www.loom.com/share/e60113ad682544b89cd781231a4cb205)
+
+---
 
 # 🤍 Instructions:
 
