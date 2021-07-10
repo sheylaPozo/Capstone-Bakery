@@ -615,6 +615,10 @@ main {
   font-size: 18px;
 }
 
+.blacks {
+  color: black;
+}
+
 .main-section-text {
   margin-top: 0.5rem;
   opacity: 0.6;
