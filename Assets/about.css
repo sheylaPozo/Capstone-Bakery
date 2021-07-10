@@ -426,7 +426,7 @@ footer {
 }
 
 .footer-bottom {
-  color: #272a31;
+  color: white;
 }
 
 .footer-bottom-content {
@@ -460,7 +460,7 @@ footer {
   }
 
   .footer-bottom {
-    background-color: #272a31;
+    background-color: white;
     color: #d3d3d3;
     padding: 2rem 0;
   }
