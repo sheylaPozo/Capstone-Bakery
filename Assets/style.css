@@ -643,6 +643,7 @@ main {
   color: #fff;
   padding: 1rem 1.2rem;
   border: none;
+  cursor: pointer;
 }
 
 .main-program-link {
