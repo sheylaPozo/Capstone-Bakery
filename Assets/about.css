@@ -174,11 +174,6 @@ header {
     -webkit-filter: drop-shadow(-1rem 4rem 4rem #ff008c);
     filter: drop-shadow(-1rem 4rem 4rem #ff008c);
   }
-
-  to {
-    -webkit-filter: drop-shadow(-2rem 5rem 5rem #ff008c);
-    filter: drop-shadow(-2rem 5rem 5rem #ff008c);
-  }
 }
 
 @keyframes hover {
@@ -226,7 +221,7 @@ header {
   display: none;
   background-color: #272a31;
   z-index: 999;
-  -webkit-animation: mobileMenu 400ms;
+  -webkit-animation: mobilemenu 400ms;
   animation: mobileMenu 400ms;
 }
 
@@ -252,7 +247,7 @@ header {
 
 .mobile-menu-style #mobileMenuLinks {
   visibility: hidden;
-  -webkit-animation: mobileMenuLinks 400s 400ms;
+  -webkit-animation: mobilemenulinks 400s 400ms;
   animation: mobileMenuLinks 400s 400ms;
 }
 
@@ -298,8 +293,8 @@ header {
 .mobile-menu-style #mobileMenuTwitter:hover {
   font-size: 45px;
   color: #ec42ab;
-  -webkit-filter: drop-shadow(0.5rem -0.8rem 0.1rem #ff00dd);
-  filter: drop-shadow(0.5rem -0.8rem 0.1rem #ff00dd);
+  -webkit-filter: drop-shadow(0.5rem -0.8rem 0.1rem #f0d);
+  filter: drop-shadow(0.5rem -0.8rem 0.1rem #f0d);
 }
 
 .mobile-menu-style .blur-effect {
@@ -357,7 +352,7 @@ header {
 }
 
 .mobile-menu-style a:hover {
-  -webkit-animation: hoverEffect 0.2s;
+  -webkit-animation: hovereffect 0.2s;
   animation: hoverEffect 0.2s;
 }
 

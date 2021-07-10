@@ -76,16 +76,16 @@ const socialMediaTwitter = document.createElement('i');
 socialMediaTwitter.className = 'fab fa-twitter';
 socialMediaTwitter.id = 'mobileMenuTwitter';
 socialMediaLink.appendChild(socialMediaTwitter);
- 
+
 const menuBtn = document.getElementById('hamburger');
 
 menuBtn.addEventListener('click', () => {
-    menu.style.display = 'block';
-    console.log('humber');
-    document.getElementById('body').style.filter = 'blur(5px)';
+  menu.style.display = 'block';
+  console.log('humber');
+  document.getElementById('body').style.filter = 'blur(5px)';
 });
 
 icon.addEventListener('click', () => {
-    menu.style.display = 'none';
-    document.getElementById('body').style.filter = 'none';
+  menu.style.display = 'none';
+  document.getElementById('body').style.filter = 'none';
 });
