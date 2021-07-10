@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
 @font-face {
   font-family: "Cocogoose";
   src: url("../font-family/Cocogoose.woff2") format("woff2"), url("../font-family/Cocogoose.woff") format("woff");
@@ -15,7 +16,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -45,11 +46,11 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 header {
@@ -87,11 +88,11 @@ header {
   margin-left: auto;
   margin-right: auto;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   gap: 1.5rem;
   padding: 0.5rem 0;
 }
@@ -124,20 +125,20 @@ header {
   margin-left: auto;
   margin-right: auto;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .nav-bottom-links {
   gap: 4rem;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .nav-bottom-links-style {
   color: #d3d3d3;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .nav-bottom-links-style:active {
@@ -147,36 +148,40 @@ header {
 .nav-bottom-links-style:hover {
   color: #ec42b3;
   -webkit-animation: hover 5s;
-          animation: hover 5s;
+  animation: hover 5s;
 }
 
 @-webkit-keyframes hover {
   from {
     -webkit-filter: drop-shadow(0 0 0 rgb(255, 0, 200));
-            filter: drop-shadow(0 0 0 rgb(255, 0, 200));
+    filter: drop-shadow(0 0 0 rgb(255, 0, 200));
   }
+
   to {
     -webkit-filter: drop-shadow(-1rem 4rem 4rem rgb(255, 0, 200));
-            filter: drop-shadow(-1rem 4rem 4rem rgb(255, 0, 200));
+    filter: drop-shadow(-1rem 4rem 4rem rgb(255, 0, 200));
   }
+
   to {
     -webkit-filter: drop-shadow(-2rem 5rem 5rem rgb(255, 0, 200));
-            filter: drop-shadow(-2rem 5rem 5rem rgb(255, 0, 200));
+    filter: drop-shadow(-2rem 5rem 5rem rgb(255, 0, 200));
   }
 }
 
 @keyframes hover {
   from {
     -webkit-filter: drop-shadow(0 0 0 rgb(255, 0, 200));
-            filter: drop-shadow(0 0 0 rgb(255, 0, 200));
+    filter: drop-shadow(0 0 0 rgb(255, 0, 200));
   }
+
   to {
     -webkit-filter: drop-shadow(-1rem 4rem 4rem rgb(255, 0, 200));
-            filter: drop-shadow(-1rem 4rem 4rem rgb(255, 0, 200));
+    filter: drop-shadow(-1rem 4rem 4rem rgb(255, 0, 200));
   }
+
   to {
     -webkit-filter: drop-shadow(-2rem 5rem 5rem rgb(255, 0, 200));
-            filter: drop-shadow(-2rem 5rem 5rem rgb(255, 0, 200));
+    filter: drop-shadow(-2rem 5rem 5rem rgb(255, 0, 200));
   }
 }
 
@@ -190,6 +195,7 @@ header {
   .mobile-nav {
     display: none;
   }
+
   .nav-top,
   .nav-bottom {
     display: block;
@@ -208,13 +214,14 @@ header {
   background-color: #272a31;
   z-index: 999;
   -webkit-animation: mobileMenu 400ms;
-          animation: mobileMenu 400ms;
+  animation: mobileMenu 400ms;
 }
 
 @-webkit-keyframes mobileMenu {
   from {
     height: 0%;
   }
+
   to {
     height: 100%;
   }
@@ -224,6 +231,7 @@ header {
   from {
     height: 0%;
   }
+
   to {
     height: 100%;
   }
@@ -232,13 +240,14 @@ header {
 .mobile-menu-style #mobileMenuLinks {
   visibility: hidden;
   -webkit-animation: mobileMenuLinks 400s 400ms;
-          animation: mobileMenuLinks 400s 400ms;
+  animation: mobileMenuLinks 400s 400ms;
 }
 
 @-webkit-keyframes mobileMenuLinks {
   0% {
     visibility: hidden;
   }
+
   100% {
     visibility: visible;
   }
@@ -248,6 +257,7 @@ header {
   0% {
     visibility: hidden;
   }
+
   100% {
     visibility: visible;
   }
@@ -258,11 +268,11 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   gap: 2rem;
 }
 
@@ -276,18 +286,18 @@ header {
   font-size: 45px;
   color: #ec42b3;
   -webkit-filter: drop-shadow(0.5rem -0.8rem 0.1rem #ff00dd);
-          filter: drop-shadow(0.5rem -0.8rem 0.1rem #ff00dd);
+  filter: drop-shadow(0.5rem -0.8rem 0.1rem #ff00dd);
 }
 
 .mobile-menu-style .blur-effect {
   -webkit-filter: drop-shadow(0.2rem -0.6rem 0 #ec42b3);
-          filter: drop-shadow(0.2rem -0.6rem 0 #ec42b3);
+  filter: drop-shadow(0.2rem -0.6rem 0 #ec42b3);
 }
 
 .mobile-menu-style .blur-effect:hover {
   color: #272a31;
   -webkit-filter: drop-shadow(5rem -1.05rem 0 #ec42b3);
-          filter: drop-shadow(5rem -1.05rem 0 #ec42b3);
+  filter: drop-shadow(5rem -1.05rem 0 #ec42b3);
 }
 
 .mobile-menu-style .fa-times {
@@ -296,8 +306,8 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   padding-top: 62px;
   padding-right: 38px;
 }
@@ -306,6 +316,7 @@ header {
   from {
     height: 100%;
   }
+
   to {
     height: 0%;
   }
@@ -315,6 +326,7 @@ header {
   from {
     height: 100%;
   }
+
   to {
     height: 0%;
   }
@@ -333,28 +345,30 @@ header {
 
 .mobile-menu-style a:hover {
   -webkit-animation: hoverEffect 0.2s;
-          animation: hoverEffect 0.2s;
+  animation: hoverEffect 0.2s;
 }
 
 @-webkit-keyframes hoverEffect {
   from {
     -webkit-filter: drop-shadow(0 0 0 #ec42b3);
-            filter: drop-shadow(0 0 0 #ec42b3);
+    filter: drop-shadow(0 0 0 #ec42b3);
   }
+
   to {
     -webkit-filter: drop-shadow(3rem 3rem 3rem #ec42b3);
-            filter: drop-shadow(3rem 3rem 3rem #ec42b3);
+    filter: drop-shadow(3rem 3rem 3rem #ec42b3);
   }
 }
 
 @keyframes hoverEffect {
   from {
     -webkit-filter: drop-shadow(0 0 0 #ec42b3);
-            filter: drop-shadow(0 0 0 #ec42b3);
+    filter: drop-shadow(0 0 0 #ec42b3);
   }
+
   to {
     -webkit-filter: drop-shadow(3rem 3rem 3rem #ec42b3);
-            filter: drop-shadow(3rem 3rem 3rem #ec42b3);
+    filter: drop-shadow(3rem 3rem 3rem #ec42b3);
   }
 }
 
@@ -362,7 +376,7 @@ footer {
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 2fr 1fr;
-      grid-template-rows: 2fr 1fr;
+  grid-template-rows: 2fr 1fr;
   font-family: "Lato", sans-serif;
 }
 
@@ -395,7 +409,7 @@ footer {
 
 .footer-top-sellers {
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 2rem;
   font-size: 24px;
   margin-top: 2.5rem;
@@ -408,8 +422,8 @@ footer {
   margin-left: auto;
   margin-right: auto;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   gap: 3rem;
 }
 
@@ -430,11 +444,13 @@ footer {
     display: -ms-grid;
     display: grid;
     -ms-grid-rows: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
   }
+
   .footer-text-content {
     display: block;
   }
+
   .footer-top-title {
     color: #d3d3d3;
     opacity: 0.4;
@@ -525,26 +541,33 @@ footer {
     position: relative;
     height: 100vh;
   }
+
   .section-header-content {
     width: 80%;
   }
+
   .section-header-title {
     font-size: 36px;
   }
+
   .section-header-second-title {
     font-size: 1.5rem;
   }
+
   .section-header-second-title-year {
     font-size: 1.5rem;
   }
+
   .section-header-third-title {
     font-size: 1.5rem;
     font-weight: 800;
     opacity: 0.7;
   }
+
   .section-header-text-content {
     width: 100%;
   }
+
   .section-header-info {
     color: #272a31;
     font-size: 1.5rem;
@@ -580,8 +603,8 @@ main {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   gap: 0.5rem;
 }
 
@@ -590,8 +613,8 @@ main {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   gap: 0.5rem;
   padding: 1rem;
   background-color: rgba(211, 211, 211, 0.22);
@@ -634,25 +657,30 @@ main {
   .main-program {
     width: 80%;
   }
+
   .main-program-cards {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
+
   .main-program-cards-content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     width: 33.3333%;
   }
+
   .main-program-cards-text {
     text-align: center;
   }
+
   .main-program-button {
     display: none;
   }
+
   .main-program-link {
     display: block;
     text-align: center;
@@ -731,11 +759,11 @@ main {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
   gap: 0.5rem;
   color: #272a31;
   font-family: "Lato", sans-serif;
@@ -751,19 +779,23 @@ main {
   .main-section-desserts-content {
     width: 80%;
   }
+
   .main-section-desserts-cards {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 1rem;
   }
+
   .black-and-white {
     opacity: 0.3;
   }
+
   .main-section-desserts-card-image {
     max-height: 8rem;
   }
+
   .main-button-more {
     display: none;
   }
