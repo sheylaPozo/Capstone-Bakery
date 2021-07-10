@@ -550,6 +550,7 @@ footer {
 
 .section-header-strong-text {
   border-bottom: 1px dotted #272a31;
+  font-size: 1rem;
 }
 
 @media only screen and (min-width: 768px) {
