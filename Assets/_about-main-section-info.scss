@@ -1,0 +1,100 @@
+main {
+  border-bottom: 1px solid $light-color;
+}
+
+.main-section-info {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  color: $dark-color;
+  padding: 2rem 0;
+  font-family: $secondary-font;
+}
+
+.main-section-title {
+  opacity: 0.9;
+  font-size: 18px;
+}
+
+.lorem {
+  font-size: 0.5rem;
+}
+
+.main-section-text {
+  margin-top: 0.5rem;
+  opacity: 0.6;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.main-section-info-logo {
+  border: 1px solid $light-color;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.main-section-info-logo-image {
+  width: 200px;
+  padding: 0.5rem;
+}
+
+.images {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 1rem;
+}
+
+.image-one,
+.image-two {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3.5rem 2rem;
+}
+
+.image-one {
+  background-image:
+    linear-gradient(rgba($red-color, 0.6)),
+    url(../images/chocolate.png);
+}
+
+.image-two {
+  background-image:
+    linear-gradient(rgba($red-color, 0.6)),
+    url(../images/strawberry.jpg);
+}
+
+.image-title {
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 2.5rem;
+}
+
+.image-text {
+  color: #fff;
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 768px) {
+  .main-section-info {
+    width: 65%;
+  }
+
+  .images {
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    padding: 1.5rem 0 3rem 0;
+  }
+
+  .image-one,
+  .image-two {
+    padding: 4rem 2rem;
+  }
+
+  .main-section-info-logo {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

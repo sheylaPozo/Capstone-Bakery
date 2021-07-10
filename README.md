@@ -27,7 +27,7 @@ This capstone project is been made with HTML5, CSS3 and JS, following the guidel
 
 Desktop version | Mobile version
 -------------------- | ----------------------
-![]()![]()
+![Desktop](https://user-images.githubusercontent.com/54015740/125152819-f3c06580-e114-11eb-9396-d43496f059ac.png)![mobile](https://user-images.githubusercontent.com/54015740/125152762-7eed2b80-e114-11eb-8b18-e8e70e1b17b6.png)
 
 ---
 The main purpose of the project [Capstone](https://sheylapozo.github.io/Capstone-Bakery/)  is to put in practice HTML5, CSS3, and Javascript concepts to build a website with all the proffesional outview of it.
@@ -35,6 +35,9 @@ The main purpose of the project [Capstone](https://sheylapozo.github.io/Capstone
 # 🤍 Live Demo 🤍
 
 [Capstone](https://sheylapozo.github.io/Capstone-Bakery/) 
+
+---
+[Video Link](https://www.loom.com/share/e60113ad682544b89cd781231a4cb205)
 
 ---
 

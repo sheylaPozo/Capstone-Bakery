@@ -1,0 +1,102 @@
+.main-section-desserts {
+  background-color: #fff;
+}
+
+.main-section-desserts-content {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2.2rem 0 3rem 0;
+}
+
+.main-section-desserts-title {
+  text-align: center;
+}
+
+.main-section-desserts-card-image {
+  max-height: 5rem;
+}
+
+.main-section-desserts-cards {
+  margin-top: 2rem;
+}
+
+.main-section-desserts-card {
+  padding: 0.6rem 0 0.6rem 0.6rem;
+  display: flex;
+  gap: 1rem;
+  position: relative;
+  z-index: 1;
+  transition: all 10s;
+}
+
+.black-and-white {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.main-section-desserts-card-content {
+  line-height: 18px;
+}
+
+.main-section-desserts-card-title {
+  color: $dark-color;
+  font-size: 14px;
+}
+
+.main-section-desserts-card-description {
+  color: $red-color;
+  font-size: 11px;
+}
+
+.main-section-desserts-card-text {
+  color: $dark-color;
+  font-size: 11px;
+  opacity: 0.8;
+}
+
+.main-button-more {
+  margin-top: 2rem;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 0.5rem;
+  color: $dark-color;
+  font-family: $secondary-font;
+  font-size: 12px;
+}
+
+.fa-chevron-down,
+.fa-chevron-up {
+  color: $red-color;
+}
+
+@media only screen and (min-width: 768px) {
+  .main-section-desserts-content {
+    width: 80%;
+  }
+
+  .main-section-desserts-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .black-and-white {
+    opacity: 0.3;
+  }
+
+  .main-section-desserts-card-image {
+    max-height: 8rem;
+  }
+
+  .main-button-more {
+    display: none;
+  }
+}
