@@ -395,6 +395,7 @@ footer {
   font-size: 20px;
   font-size: 18px;
   opacity: 0.8;
+  cursor: pointer;
 }
 
 .footer-top-underline {
@@ -455,6 +456,7 @@ footer {
     color: #d3d3d3;
     opacity: 0.4;
     font-weight: 500;
+    cursor: pointer;
   }
 }
 
