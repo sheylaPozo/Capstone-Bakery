@@ -468,7 +468,7 @@ footer {
 .section-header {
   padding-top: 3rem;
   position: relative;
-  height: auto;
+  height: 100vh;
 }
 
 .section-header::before {
