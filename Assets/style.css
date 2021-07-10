@@ -53,6 +53,11 @@ a {
   justify-content: center;
 }
 
+.subs {
+  background-color: lightsalmon;
+  border-color: rgb(255, 0, 170);
+}
+
 header {
   width: 100%;
   position: fixed;
