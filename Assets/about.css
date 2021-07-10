@@ -502,7 +502,7 @@ footer {
 
 .section-header-second-title {
   padding-top: 0.5rem;
-  background-image: url(../images/fuchsia.jpg);
+  background-image: url(../images/star.jpg);
   background-size: cover;
   background-clip: content-box;
   -webkit-background-clip: text;
@@ -552,20 +552,24 @@ footer {
   }
   .section-header-second-title {
     padding-top: 1.5rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
+  }
+
+  .lorem{
+     font-size:0.3rem;
   }
   .section-header-second-title-year {
-    font-size: 1.5rem;
+    font-size: 0.7rem;
   }
   .section-header-text-content {
-    width: 100%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
   }
   .section-header-second-content {
     color: #272a31;
     opacity: 0.9;
-    font-size: 1.25rem;
+    font-size: 0.4rem;
     padding: 5rem 0 1rem 0;
   }
 }

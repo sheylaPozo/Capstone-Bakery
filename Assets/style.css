@@ -479,7 +479,7 @@ footer {
 
 .section-header-second-title {
   padding-top: 0.5rem;
-  background-image: url(../images/cakes.jpeg);
+  background-image: url(../images/star.jpg);
   background-size: cover;
   background-clip: content-box;
   -webkit-background-clip: text;
@@ -543,7 +543,7 @@ footer {
     opacity: 0.7;
   }
   .section-header-text-content {
-    width: 50%;
+    width: 100%;
   }
   .section-header-info {
     color: #272a31;

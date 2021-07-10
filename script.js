@@ -10,7 +10,7 @@ featuredDesserts.appendChild(featuredDessertsDIV);
 
 const featuredDessertsTitle = document.createElement('h3');
 featuredDessertsTitle.className = 'main-section-desserts-title';
-featuredDessertsTitle.textContent = 'Featured Desserts';
+featuredDessertsTitle.textContent = 'FeaturedDesserts';
 featuredDessertsDIV.appendChild(featuredDessertsTitle);
 
 const featuredDessertsTitleUnderline = document.createElement('p');
