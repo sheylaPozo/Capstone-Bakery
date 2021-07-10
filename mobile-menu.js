@@ -45,7 +45,7 @@ bestsellers.appendChild(bestsellersLink);
 menuList.appendChild(bestsellers);
 
 const newDesserts = document.createElement('li');
-const newdessertsLink = document.createElement('a');
+const newDessertsLink = document.createElement('a');
 newDessertsLink.className = 'blur-effect';
 newDessertsLink.textContent = 'New Desserts';
 newDessertsLink.href = '#';
@@ -76,9 +76,12 @@ const socialMediaTwitter = document.createElement('i');
 socialMediaTwitter.className = 'fab fa-twitter';
 socialMediaTwitter.id = 'mobileMenuTwitter';
 socialMediaLink.appendChild(socialMediaTwitter);
+ 
+const menuBtn = document.getElementById('hamburger');
 
-document.getElementById('hamburger').addEventListener('click', () => {
+menuBtn.addEventListener('click', () => {
     menu.style.display = 'block';
+    console.log('humber');
     document.getElementById('body').style.filter = 'blur(5px)';
 });
 

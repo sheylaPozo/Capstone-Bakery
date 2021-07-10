@@ -5,7 +5,7 @@ featuredDesserts.id = 'featureDesserts';
 main.appendChild(featuredDesserts);
 
 const featuredDessertsDIV = document.createElement('div');
-featuredDessertssDIV.className = 'main-section-desserts-content';
+featuredDessertsDIV.className = 'main-section-desserts-content';
 featuredDesserts.appendChild(featuredDessertsDIV);
 
 const featuredDessertsTitle = document.createElement('h3');
