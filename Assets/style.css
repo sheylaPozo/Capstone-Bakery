@@ -528,7 +528,7 @@ footer {
 .section-header-third-title {
   color: #272a31;
   font-family: "Work Sans", sans-serif;
-  font-size: 2rem;
+  font-size: 1.2rem;
   margin-top: 1.5rem;
   font-weight: 800;
   opacity: 0.7;
@@ -660,7 +660,7 @@ main {
   background-clip: content-box;
   -webkit-background-clip: text;
   color: transparent;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
 }
 
 .main-program-link {
