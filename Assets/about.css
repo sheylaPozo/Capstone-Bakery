@@ -615,17 +615,17 @@ main {
   font-size: 18px;
 }
 
-.blacks {
-  color: black;
-  text-align: center;
-}
-
 .main-section-text {
   margin-top: 0.5rem;
   opacity: 0.6;
   font-weight: bold;
   font-size: 14px;
   color: #ffff;
+}
+
+.blacks {
+  color: black;
+  text-align: center;
 }
 
 .main-section-info-logo {
