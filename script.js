@@ -53,7 +53,7 @@ desserts.push(
   new ProjectCard(
     './images/choco.png',
     'Picture of Dessert',
-    'Chocolate Esculptures',
+    'Chocolate Sculptures',
     "Made with the secret recipe of grandma Paula, tradition of the house'",
     'In 2001 Yve´s Konditorei won a first place in World Baking Compettitioon for the best bakeries on the Country, so is recognoized Country level for its merits',
   ),
@@ -71,11 +71,21 @@ desserts.push(
 
 desserts.push(
   new ProjectCard(
-    './images/cupcake.jpg',
+    './images/fondantcake.jpg',
     'Picture of Dessert',
-    'Personalized Cupcakes',
-    "We always come with different ideas for our cupcakes, sometimes rainbow, other days galaxy, next day bicolor, it's always matter of creativity and creation",
-    'In 2001 Yve´s Konditorei won a first place in World Baking Compettitioon for the best bakeries on the Country, so is recognoized Country level for its merits',
+    'Fondant Cake Designs',
+    "Our fondant cakes are of personalizedd designs with delicious different flavors per client request, sold for personal comsumption, parties or events'",
+    'In 2001 Yve´s Konditorei won a first place in World Baking Compettitioon for the best bakeries on the Country, so is recognoized Country level for its merits.',
+  ),
+);
+
+desserts.push(
+  new ProjectCard(
+    './images/mirrorglazecake.jpg',
+    'Picture of Dessert',
+    'Birthday, Wedding, celebration Cakes',
+    'Our cakes are of the best selection in all the flavors possible, delicious fillers, amazing clients with our secret recipes',
+    'In 2001 Yve´s Konditorei won a first place in World Baking Compettitioon for the best bakeries on the Country, so is recognoized Country level for its merits.',
   ),
 );
 
@@ -96,6 +106,16 @@ desserts.push(
     'Pralinem',
     "Our chocolates are of the best selection with delicious fillers and sold in dozen or more for parties or events'",
     'In 2001 Yve´s Konditorei won a first place in World Baking Compettitioon for the best bakeries on the Country, so is recognoized Country level for its merits.',
+  ),
+);
+
+desserts.push(
+  new ProjectCard(
+    './images/cupcake.jpg',
+    'Picture of Dessert',
+    'Personalized Cupcakes',
+    "We always come with different ideas for our cupcakes, sometimes rainbow, other days galaxy, next day bicolor, it's always matter of creativity and creation",
+    'In 2001 Yve´s Konditorei won a first place in World Baking Compettitioon for the best bakeries on the Country, so is recognoized Country level for its merits',
   ),
 );
 

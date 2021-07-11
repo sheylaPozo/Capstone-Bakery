@@ -472,7 +472,6 @@ footer {
 }
 
 .section-header::before {
-  content: "";
   background-image: url(../images/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -507,7 +506,7 @@ footer {
   background-clip: content-box;
   -webkit-background-clip: text;
   color: transparent;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-family: "Cocogoose", sans-serif;
 }
 
@@ -651,6 +650,16 @@ main {
   padding: 1rem 1.2rem;
   border: none;
   cursor: pointer;
+}
+
+.dates {
+  font-family: "Work Sans", sans-serif;
+  background-image: url(../images/fuchsia.jpg);
+  background-size: cover;
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 1.8rem;
 }
 
 .main-program-link {
