@@ -56,6 +56,7 @@ a {
 .subs {
   background-color: lightsalmon;
   border-color: rgb(255, 0, 170);
+  cursor:pointer;
 }
 
 header {
@@ -472,7 +473,6 @@ footer {
 }
 
 .section-header::before {
-  content: "";
   background-image: url(../images/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -507,7 +507,7 @@ footer {
   background-clip: content-box;
   -webkit-background-clip: text;
   color: transparent;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-family: "Cocogoose", sans-serif;
 }
 
@@ -528,7 +528,7 @@ footer {
 .section-header-third-title {
   color: #272a31;
   font-family: "Work Sans", sans-serif;
-  font-size: 2rem;
+  font-size: 1.2rem;
   margin-top: 1.5rem;
   font-weight: 800;
   opacity: 0.7;
@@ -651,6 +651,16 @@ main {
   padding: 1rem 1.2rem;
   border: none;
   cursor: pointer;
+}
+
+.dates {
+  font-family: "Work Sans", sans-serif;
+  background-image: url(../images/fuchsia.jpg);
+  background-size: cover;
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 1.2rem;
 }
 
 .main-program-link {
