@@ -34,10 +34,10 @@ The main purpose of the project [Capstone](https://sheylapozo.github.io/Capstone
 
 # 🤍 Live Demo 🤍
 
-[Capstone](https://sheylapozo.github.io/Capstone-Bakery/) 
+🤍 [Capstone](https://sheylapozo.github.io/Capstone-Bakery/) 
 
 ---
-[Video Link](https://www.loom.com/share/e60113ad682544b89cd781231a4cb205)
+🤍 [Video Link](https://www.loom.com/share/e60113ad682544b89cd781231a4cb205)
 
 ---
 
